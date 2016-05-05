@@ -1,4 +1,4 @@
-# usage: ./get_session_profile <SID> 
+# usage: ./get_session_profile <SID> <filter>
 
 
 # This is the main script
