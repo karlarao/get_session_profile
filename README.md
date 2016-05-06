@@ -26,10 +26,10 @@
   $ sh get_session_profile.sh 966 good
   ```
 
-  The script would do this the following:
+  The script would do the following:
     * 10046 start
-    * snapper (sample for 1 min - 5 secs each)
-    * short_stack (sample for 1 min - 5 secs each)
+    * snapper (sample for 1 min for 5 secs each)
+    * short_stack (sample for 1 min for 5 secs each)
     * ash (get last 10 mins)
     * wait chains (get last 10 mins)
     * 10046 end
@@ -79,7 +79,7 @@ The full output is here https://github.com/karlarao/get_session_profile/blob/mas
 
 ```
 /u01/app/oracle/diag/rdbms/oltp/oltp1/trace/oltp1_ora_126349.trc
-/u01/app/oracle/diag/rdbms/oltp/oltp1/trace/oltp1_ora_126349.trc
+
      60 opiodr()+916
      40 qertbFetch()+2525
      40 kdsttgr()+55099
